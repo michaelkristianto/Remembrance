@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::selection {
+    background: rgba(0, 0, 0, .2);
+}
+
+body {
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 270px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background: #359381;
+    color: #fff;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+#leaf {
+    margin-left: 300px;
+    width: 80%;
+    height: 600px;
+}
+
+#plant{
+
+    margin-top: 280px;
+}
+
+.sec1 {
+    position: relative;
+    display: flex;
+    background: #003329;
+    padding: 35px 95px 35px 95px;
+    height: 788px;
+}
+
+.sec1-left{
+    display: flex;
+    flex-direction: row;
+    background-color: #003329;
+    width: 970px;
+    justify-content: space-evenly;
+}
+
+.poster {
+    width: 500px;
+    height: 650px;
+}
+
+.sec1-left div {
+    font-weight: 700;
+    font-size: 100px;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    margin-right: 70px;
+}
+
+.kanan{
+    color: white;
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+    padding: 0rem 0rem 7rem 0rem;
+    justify-content: space-between;
+}
+
+.kanan .frame-1-1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.kanan .judul-isi{
+    font-weight: 700;
+    font-size: 1.53rem;
+}
+
+.kanan .isi{
+    font-weight: 500;
+    font-size: 1.14rem;
+}
+
+.frame-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 6.25rem;
+}
+
+/* SECTION 2 */
+
+.sec2 {
+    position: relative;
+    display: flex;
+    background: #003329;
+    /* padding: 35px 95px 35px 95px; */
+    height: 760px;
+}
+
+
+/* SECTION 3 */
+
+.sec3 {
+    position: relative;
+    display: flex;
+    background: #003329;
+    padding: 65px 95px 40px 95px;
+    height: 750px;
+}
+
+.sec3-kiri {
+    color: white;
+    /* background-color: aqua; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 0rem 3rem 0rem;
+    align-content: space-between;
+}
+
+.sec3-kiri  .frame-1-1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.sec3-kiri  .judul-isi{
+    font-weight: 700;
+    font-size: 1.53rem;
+}
+
+.sec3-kiri  .isi{
+    font-weight: 500;
+    font-size: 1.14rem;
+}
+
+.frame-1{
+    display: flex;
+    flex-direction: row;
+}
+
+#row1 {
+    /* background-color: red; */
+    padding-right: 180px;
+}
+
+#row2 {
+    /* background-color: red; */
+    padding-right: 120.4px;
+}
+
+#row3 {
+    width: 100%;
+    height: 105px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+
+#row3-2 {
+    margin-right: -70px;
+    padding-right: 5px;
+}
+
+#row5 {
+    padding-right: 70px;
+}
+
+.sec3-kanan {
+    height: 100%;
+    height: 680px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.box {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.box div {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+.box img {
+    width: 255px;
+    height: 200.8px;
+}
