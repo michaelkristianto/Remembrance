@@ -58,7 +58,7 @@ body {
 }
 
 #text {
-    margin-top: -8vw;
+    margin-top: -9vw;
     position: absolute;
     font-size: 7.813vw;
     color: #fff;
@@ -115,10 +115,9 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #003329;
-    /* background-color: red; */
+    padding-left: -4vw;
     width: 65%;
     justify-content: space-evenly;
-    /* margin-right: ; */
 }
 
 .poster {
@@ -127,7 +126,6 @@ body {
 }
 
 .sec1-left div {
-    /* background-color: hotpink; */
     font-weight: 700;
     font-size: 5.813vw;
     color: white;
@@ -135,7 +133,7 @@ body {
     width: fit-content;
     writing-mode: vertical-rl;
     transform: rotate(-180deg);
-    /* margin-right: 5.469vw; */
+    padding-left: 3.469vw;
 }
 
 .kanan{
@@ -229,7 +227,7 @@ body {
 
 #row2 {
     /* background-color: red; */
-    padding-right: 9.406vw;
+    padding-right: 4.36vw;
 }
 
 #row3 {
@@ -241,13 +239,16 @@ body {
     align-content: space-between;
 }
 
+#row3-1 {
+    padding-right: 2vw;
+}
 
 #row3-2 {
     margin-right: -5.469vw;
 }
 
 #row5 {
-    padding-right: 5.469vw;
+    padding-right: 2.36vw;
 }
 
 .sec3-kanan {
