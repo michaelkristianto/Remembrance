@@ -126,7 +126,7 @@ body {
     margin-top: 19.4vw;
     margin-right: 12vw;
     position: absolute;
-    font-size: 3.813vw;
+    font-size: 3vw;
     color: #fff;
     font-weight: bold;
     text-shadow: 0vw 0.313vw 0.313vw rgba(0, 0, 0, 0.5);
@@ -266,6 +266,12 @@ body {
     padding-right: 2.36vw;
 }
 
+.sec1-left img:hover{
+    transform: translateY(-20px);
+    transition: transform 0.2s ease 0s;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .sec3-kanan {
     height: 100%;
     height: 45.125vw;
@@ -295,6 +301,12 @@ body {
 .box img {
     width: 15.422vw;
     height: 11.688vw;
+}
+
+.box img:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease 0s;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .our-team {
