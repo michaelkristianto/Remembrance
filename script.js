@@ -14,3 +14,14 @@ window.addEventListener('scroll', () => {
     hill4.style.left = value * -1.5 + 'px';
     hill1.style.top = value * 0.5 + 'px';
 });
+
+function blurry() {
+    document.getElementById("poster").style.filter = "blur(0.4vw)"
+    document.getElementById("text-dis").style.display = "block"
+    // document.getElementById("hiking-image").style.filter = "drop-shadow(0px 0.547vw 0.547vw rgba(0, 0, 0, 0.75))"
+}
+
+function unblur() {
+    document.getElementById("poster").style.filter = "none"
+    document.getElementById("text-dis").style.display = "none"
+}
