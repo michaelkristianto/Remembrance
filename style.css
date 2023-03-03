@@ -111,6 +111,7 @@ body {
     background: #003329;
     padding: 7.031vw 5.122vw 8.734vw 5.122vw;
     height: 57.063vw;
+    overflow-x: hidden;
 }
 
 .sec1-left{
@@ -192,6 +193,7 @@ body {
     display: flex;
     background: #003329;
     height: 47vw;
+    overflow-x: hidden;
 }
 
 
@@ -204,6 +206,7 @@ body {
     background: #003329;
     padding: 3.078vw 7.422vw 0vw 7.422vw;
     height: 50.375vw;
+    overflow-x: hidden;
 }
 
 .sec3-kiri {
@@ -321,7 +324,6 @@ body {
         flex-direction: column;
         margin: 0 auto;
         height: auto;
-        overflow: hidden;
         padding: 10vw 10vw 8.734vw 10vw;
     }
     
